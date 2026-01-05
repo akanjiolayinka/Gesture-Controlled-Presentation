@@ -319,7 +319,7 @@ class PresentationController:
             keys = self.key_mappings[self.app_mode]["next"]
             self.press_keys(keys)
             if self.verbose:
-                print("▶ Next slide")
+                print("Next slide")
             return True
         return False
     
@@ -328,7 +328,7 @@ class PresentationController:
             keys = self.key_mappings[self.app_mode]["prev"]
             self.press_keys(keys)
             if self.verbose:
-                print("◀ Previous slide")
+                print("Previous slide")
             return True
         return False
     
@@ -344,7 +344,7 @@ class PresentationController:
                     pyautogui.press(key)
             self.is_presenting = True
             if self.verbose:
-                print("🎬 Starting presentation")
+                print("Starting presentation")
             return True
         return False
     
@@ -354,7 +354,7 @@ class PresentationController:
             self.press_keys(key)
             self.is_presenting = False
             if self.verbose:
-                print("⏹ Stopping presentation")
+                print("Stopping presentation")
             return True
         return False
     
@@ -511,7 +511,7 @@ class GestureControlledPresentation:
         )
         
         self.running = True
-        print("\n✅ System ready!")
+        print("\nSystem ready!")
         print("\nControls:")
         print("- Swipe Right: Next Slide")
         print("- Swipe Left: Previous Slide")
@@ -627,7 +627,7 @@ class GestureControlledPresentation:
         if self.cap:
             self.cap.release()
         cv2.destroyAllWindows()
-        print("✅ Cleanup complete")
+        print("Cleanup complete")
     
     def __del__(self):
         """Destructor to ensure cleanup"""

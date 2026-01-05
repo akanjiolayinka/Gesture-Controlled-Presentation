@@ -2,7 +2,7 @@
 
 Control PowerPoint, Keynote, or Google Slides presentations using hand gestures detected via webcam - **WORKING AND TESTED!**
 
-## ✅ Status: FULLY FUNCTIONAL
+## Status: FULLY FUNCTIONAL
 
 The system is ready to use! All dependencies are installed and the hand tracking model is configured.
 
@@ -21,7 +21,7 @@ The system is ready to use! All dependencies are installed and the hand tracking
 python gesture_presentation.py
 ```
 
-## 🖐️ Supported Gestures
+## Supported Gestures
 
 | Gesture | Action | How To |
 |---------|--------|--------|
@@ -29,8 +29,8 @@ python gesture_presentation.py
 | Swipe Left ← | Previous Slide | Move hand quickly to the left |
 | Swipe Down ↓ | Start Presentation (F5) | Move hand down |
 | Swipe Up ↑ | Stop Presentation (ESC) | Move hand up |
-| Pinch 🤏 | Black Screen | Touch thumb and index finger |
-| Open Palm 🖐 | White Screen | Show open palm with all fingers |
+| Pinch | Black Screen | Touch thumb and index finger |
+| Open Palm | White Screen | Show open palm with all fingers |
 
 ## ⌨️ Keyboard Shortcuts
 
@@ -74,10 +74,10 @@ python gesture_presentation.py --camera 1
 ## 📦 What's Installed
 
 All dependencies are pre-installed in `.venv`:
-- ✅ OpenCV 4.12.0 - Camera and image processing
-- ✅ MediaPipe 0.10.31 - Hand tracking AI
-- ✅ PyAutoGUI 0.9.54 - Keyboard control
-- ✅ NumPy 2.2.6 - Numerical operations
+- OpenCV 4.12.0 - Camera and image processing
+- MediaPipe 0.10.31 - Hand tracking AI
+- PyAutoGUI 0.9.54 - Keyboard control
+- NumPy 2.2.6 - Numerical operations
 
 ## 🔧 System Requirements
 
@@ -197,4 +197,4 @@ For issues or questions:
 
 ---
 
-**Happy Presenting! 🎤✋**
+**Happy Presenting!**
