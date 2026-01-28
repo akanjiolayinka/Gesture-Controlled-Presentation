@@ -1,5 +1,5 @@
 """
-Test camera and basic hand detection using MediaPipe Tasks API
+Test camera and Basic hand detection using MediaPipe Tasks API
 """
 
 import cv2
